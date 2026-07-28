@@ -14,5 +14,8 @@ async def readme() -> str:
     - time_out: 超时，"auto" 或数字秒。
     - truncate_output: 是否截断输出内容。
     - unescape: 保底机制，默认 False。当 AI 无法嵌入真实换行时设为 True，可将 \n 等转义序列还原。
+
+    小技巧：
+    replace_line 会尝试自动创建文件以及对应的文件夹，所以可以直接使用而不用 touch
     """
     return ""
