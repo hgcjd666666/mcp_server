@@ -17,5 +17,7 @@ async def readme() -> str:
 
     小技巧：
     replace_line 会尝试自动创建文件以及对应的文件夹，所以可以直接使用而不用 touch
+    exec 不支持管道等 shell 语法，需要时用 bash -c 包裹，如 ["bash", "-c", "cmd1 | cmd2"]
+    也可以省略引号直接写 bash -c cmd1 | cmd2
     """
     return ""
