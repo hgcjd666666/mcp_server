@@ -7,7 +7,7 @@
 - **Termux**（必需）— Android 上的终端模拟器
 - **Python 3.10+**（必需）— 运行环境
 - **pip 包：`fastmcp`**（必需）— MCP 框架
-- **DroidSpaces、KernelSU**（推荐）— 容器环境支持、并且让ai可以访问你的设备
+- **DroidSpaces和Root**（推荐）— 容器环境支持、并且让ai可以访问你的设备
 
 ## 安装
 
